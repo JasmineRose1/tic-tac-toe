@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     function clickOutcome(e) {
         //find out which square has been clicked using an array data structure
-      const squareArray = Array.from(squares)
+      const squareArray = Array.from(squares)//turn squares into arrays  Array ["f", "o", "o"]
       const index = squareArray.indexOf(e.target) // find out the index of the squares in 3x3 grid
       playerDisplay.innerHTML = currentPlayer
   
